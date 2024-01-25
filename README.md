@@ -7,5 +7,5 @@ This project is a daily scheduler which displays the current, future, and past h
 Starting code for HTML and CSS was provided by the Northwestern Coding Camp and is found under the main and in the assets folder. 
 
 ## Where you can find the project 
-GitHub repo: 
-Deployed URL: 
+GitHub repo: https://github.com/snalepa11/daily-scheduler 
+Deployed URL: https://snalepa11.github.io/daily-scheduler/ 
