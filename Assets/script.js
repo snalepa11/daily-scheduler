@@ -2,12 +2,7 @@
 $(function () {
 
   runDateLogic();
-    
-    
-    var saveContent = document.getElementById("text")
-    
-    var saveButton = document.getElementById("button")
-
+        
     let saveText =  function saveText() {
         $('textarea').each(function() {
          let id = this.id;
@@ -15,9 +10,23 @@ $(function () {
          localStorage.setItem(id, value)
          });
     }
+    
+    let buttonArr = [
+      '#button-9', 
+      '#button-10', 
+      '#button-11', 
+      '#button-12', 
+      '#button-13', 
+      '#button-14', 
+      '#button-15', 
+      '#button-16', 
+      '#button-17'
+    ];
 
-    saveButton.addEventListener("click", saveText)
- 
+    for (let i = 0; i < buttonArr.length; i++) {
+      var saveButton = document.querySelector(buttonArr[i]);
+      saveButton.addEventListener("click", saveText);
+    }
     
    
     
